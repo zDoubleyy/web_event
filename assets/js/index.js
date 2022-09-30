@@ -28,7 +28,7 @@ function getUserInfo() {
             }
             //调用renderAvatar()渲染调用用户头像
             renderAvatar(res.data)
-        },
+        }
         // //不论成功还是失败，最终都会调用complete回调函数
         // complete:function(res){
         //     // console.log('执行了complete回调');
